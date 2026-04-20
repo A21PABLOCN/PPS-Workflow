@@ -10,5 +10,5 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Greet the User
+      - name: Python
         run: python3 -m unittest test_utils.py

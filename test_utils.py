@@ -15,4 +15,4 @@ class TestUtils(unittest.TestCase):
  def test_negative_number(self):
   self.assertEqual(is_prime(-3), "Os números negativos non están permitidos")
 if __name__ == "__main__":
-unittest.main()
+ unittest.main()
