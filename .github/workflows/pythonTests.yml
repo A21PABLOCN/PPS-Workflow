@@ -1,11 +1,11 @@
 name: Python Test Workflow
 
 on:
+  push:
   workflow_dispatch:
-
 jobs:
   greet:
     runs-on: ubuntu-latest
     steps:
       - name: Greet the User
-        run: python3 test_utils.py
+        run: python3 ./test_utils.py
